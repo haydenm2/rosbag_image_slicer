@@ -1,11 +1,7 @@
-# rosbag_image_slicer
-Scripts for creating an edited copy of a rosbag that crops a specified image topic to a certain size and location.
-
-
 ROSbag Image Slicer
 ==============================
 
-This ROS package, known as `rosbag_image_slicer`, provides a python parsing approach for taking in a target ROSbag and outputting a bag containing the designated video topic cropped to a specified cropping ratio at a specified section of the image.
+This ROS package, known as `rosbag_image_slicer`, provides a python parsing approach for taking in a target ROSbag and outputting a bag containing the designated video topic cropped to a specified cropping ratio at a specified location in the image.
 
 ## Setup
 Create a catkin workspace (e.g. rosbag_ws)
